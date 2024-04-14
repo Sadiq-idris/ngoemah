@@ -16,7 +16,7 @@ function Demand() {
             <motion.h2 
               initial={{x:-100, opacity:0}}
               whileInView={{x:1, opacity:1}}
-              transition={{type:"spring", delay:0.3}}
+              transition={{type:"spring", delay:0.3, duration:"1000ms"}}
               className='lg:text-5xl leading-10 text-3xl font-[600] capitalize text-center my-5'
             >High Demand Area</motion.h2>
             <motion.p 

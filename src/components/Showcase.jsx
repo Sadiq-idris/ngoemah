@@ -11,7 +11,7 @@ export default function Showcase() {
             <motion.div
                 initial={{scale:0, opacity:0}}
                 whileInView={{scale:1, opacity:1}}
-                transition={{type:"spring", delay:0.3}}
+                transition={{type:"spring", delay:0.3, duration:"1000ms"}}
             >
                 <h2
                     className='lg:text-6xl leading-10 text-4xl font-[600] capitalize text-center my-5'
